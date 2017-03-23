@@ -1,0 +1,14 @@
+D:\Angular js\BookStore\BookStoreLibrary\bin\Debug\BookStoreLibrary.dll
+D:\Angular js\BookStore\BookStoreLibrary\bin\Debug\BookStoreLibrary.pdb
+D:\Angular js\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.dll
+D:\Angular js\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.pdb
+D:\Angular js\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.csprojResolveAssemblyReference.cache
+D:\Angular js\BookStore\BookStoreLibrary\bin\Debug\Helpers.dll
+D:\Angular js\BookStore\BookStoreLibrary\bin\Debug\Helpers.pdb
+E:\APAC.NET\BookStore\BookStoreLibrary\bin\Debug\BookStoreLibrary.dll
+E:\APAC.NET\BookStore\BookStoreLibrary\bin\Debug\BookStoreLibrary.pdb
+E:\APAC.NET\BookStore\BookStoreLibrary\bin\Debug\Helpers.dll
+E:\APAC.NET\BookStore\BookStoreLibrary\bin\Debug\Helpers.pdb
+E:\APAC.NET\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.csprojResolveAssemblyReference.cache
+E:\APAC.NET\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.dll
+E:\APAC.NET\BookStore\BookStoreLibrary\obj\Debug\BookStoreLibrary.pdb

@@ -1,0 +1,23 @@
+﻿@model BookStoreLibrary.Books.Books
+@{
+    ViewBag.Title = "ImageClick";
+}
+
+<h2>@Model.Title</h2>
+<table>
+    <td>
+        <img src="@Model.image" /><br />
+        Title:@Model.Title<br />
+        Author:@Model.Author<br />
+        Price:@Model.Price<br />
+        @*<li>@Model.BookID</li>
+            <li>@Model.CategoryID</li>
+            <li>@Model.NoOfBooks</li>*@
+
+        <input type="button" value="Add to Cart" onclick="location.href='@Url.Action("AddCart", "User", new { id = @Model.BookID })'" />
+    </td>
+  
+</table>
+@Html.ActionLink("Back to List", "Index")
+
+

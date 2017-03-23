@@ -1,0 +1,23 @@
+﻿
+@model BookStoreLibrary.Category.Category
+
+@{
+    ViewBag.Title = "Category";
+}
+
+@*<h2>Category</h2>*@
+
+<form method="post" action="">
+        <br /><br />
+        <div class="float-left">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <h2>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Category</h2>
+            <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="/Category/Subcategory/@Model.CategoryID" target="_blank">
+    Add As User
+</a>Novels</a></h3>
+            <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="~/Content/Image1/fiction.jpg">Fiction</a></h3>
+            <h3>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="~/Content/Image1/philosophy.jpg">Philosophy</a></h3>
+            
+        </div>
+</form>
+@*@Html.DropDownListFor(m => m.CategoryId, @ViewBag.categoryList)*@

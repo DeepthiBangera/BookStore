@@ -1,0 +1,102 @@
+﻿@*@{
+    ViewBag.Title = "Index";
+}*@
+
+
+@model IEnumerable<BookStoreLibrary.Books.Books>
+
+@{
+    ViewBag.Title = "Index";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+    //Layout = null;
+}
+
+@*<h2>Index</h2>*@
+@*@Html.ActionLink("Add Book", "Add")*@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <style type="text/css">
+        table, td, th {
+            border: 1px solid blue;
+        }
+
+        th {
+            background-color: blue
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: lightblue; height: 100px; padding-top: 10px;">
+        <span style="text-align: center;">
+            @*<h1> Book Store</h1>*@
+        </span>
+    </div>
+    <div>
+        <table style="margin-left: 35%; margin-top: 10px; border: none;">
+            <tr>
+                @using (Html.BeginForm())
+                {
+                <td style="border: none;">
+                    <label id="lblName">Enter Keyword</label>
+                </td>
+                    <td style="border: none;">@Html.TextBox("txtValue")</td>
+                    <td style="border: none;">
+                        <input id="btnSearch" type="submit" value="Search" />
+                    </td>
+                }
+            </tr>
+        </table>
+    </div>
+    <div>
+        @if (ViewBag.Message == true)
+        {
+            <label id="lblMessage" title="Please enter keyword" style="color:red;">Please enter keyword...!</label>
+        }
+        else
+        {
+            if (Model != null)
+            {
+                if (Model.Count() != 0)
+                {
+                    <table style="border: 2px solid LightGray;">
+                        <tr>
+                            @*<th>BookID</th>*@
+                            <th>Image</th>
+                            <th>Book Name</th>
+                            <th>Author</th>
+                            <th>Price</th>
+                            @*<th>CategoryID</th>*@
+                            
+                            
+                        </tr>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><img @*style="width:150px;height:200px;"*@ src="@item.image"/></td>
+                                @*<th>@item.BookID</th>*@
+                                <td>@item.Title</td>
+                                <td>@item.Author</td>
+                                <td>@item.Price</td>
+                                @*<td>@item.CategoryID</td>*@
+                                @*<td>@item.NoOfBooks</td>*@
+                                @*<td>@Html.ActionLink("Edit", "Update", new { id = item.BookID })</td>
+                                <td>@Html.ActionLink("Delete", "Delete", new { id = item.BookID })</td>*@
+                                @*<td>@Html.ActionLink("GetBookByName", "GetBookByName", new { id = item.Title })</td>*@
+                            </tr>
+                        }
+                    </table>
+                }
+                else
+                {
+                    <label id="lblErrorMsg" title="Record not fount...!" style="color:red;">Record not found...!</label>
+                }
+            }
+        }
+    </div>
+</body>
+</html>

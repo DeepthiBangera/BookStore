@@ -1,0 +1,72 @@
+﻿@*@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>BU BOOKS</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body style="background: url('~/Content/Image1/free-vector-3-dynamic-lines-of-the-blue-background-vector_016805_Blue_absrtact1.jpg')">
+
+    @*<center>*@
+        @*<header>
+            <div class="float-left">
+                <img src="~/Content/Image1/logo.png" alt=" BU Books" height="150" width="250">
+            </div>
+
+            <br><br><br>
+            <center>
+                BookStore
+            </center>
+        </header>
+    @*</center>*@
+    @*<input id="box" type="text" placeholder="Get A Book Get The Life">
+    <input id="box1" type="button" value="Search" onclick="search">
+    <div class="float-right">
+                    <section id="login">
+                        @Html.Partial("_LoginPartial")
+                    </section>
+                    <nav>
+                        <ul id="menu">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Search", "Index", "Book")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </nav>
+                </div>
+    <br><br><br><br>*@
+    @*<a href="aboutus.html" id="category"><font style="font-size:25px;">CATEGORY</font></a>
+    <a href="registration.html" id="category"><font style="font-size:25px;">TRENDING</font></a>
+    <a href="bookstore.html" id="category"><font style="color:blue;font-size:25px;">UPCOMING</font></a>
+    <a href="contact.html" id="category"><font style="font-size:25px;">ABOUT US</font></a>*@
+    <br><br><br><br><br><br><br><br>
+    @*<marquee behavior="left" direction="left" scrollamount="10">
+        <img src="~/Content/Image1/i_too_had_a_love_story-novel-review-by-arjun.jpg" height="250" width="200">
+        <img src="~/Content/Image1/Harry_Potter_and_the_Goblet_of_Fire.jpg" height="250" width="200">
+        <img src="~/Content/Image1/Midnight-Surrender_ebook.jpg" height="250" width="200">
+        <img src="~/Content/Image1/download.jpg" height="250" width="200">
+        <img src="~/Content/Image1/dumbingusdown.jpg" height="250" width="200">
+        <img src="~/Content/Image1/jacket-image-large.jpg" height="250" width="200">
+        <img src="~/Content/Image1/harry_potter_and_the_goblet_of_Fire.jpg" height="250" width="200">
+    </marquee>*@
+    @*<section >*@
+        @RenderSection("scripts", required: false)
+        @RenderBody()
+    @*</section>*@
+    @*<center>
+        <footer>
+            <p id="footer">
+                copyright@BookStore
+            </p>
+        </footer>
+    </center>
+    </p>*@
+@*</body>*@
+</html>*@*@

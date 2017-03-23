@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BookStoreLibrary.Category.Category>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<table>
+    <thead>
+        <tr>
+            @*<th>Category_ID</th>*@
+            <th style="font-size:25px"> Category  Name</th>
+
+        </tr>
+    </thead>
+    @foreach (BookStoreLibrary.Category.Category l in Model)
+    {
+        <tr>
+            @*<td>@l.Category_ID</td>*@
+            <td style="font-size:20px">@Html.ActionLink(l.CategoryName, "BookView", new { id = l.CategoryID })</td>
+
+            @*<td>
+                    @Html.ActionLink("Edit", "Update", new { id = l.Book_ID })
+                    @Html.ActionLink("Delete", "Delete", new { id = l.Book_ID })
+                </td>*@
+
+        </tr>
+        
+
+    }
+
+</table>
+
+

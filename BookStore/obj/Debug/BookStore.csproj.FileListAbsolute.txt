@@ -1,0 +1,176 @@
+D:\Angular js\BookStore\BookStore\bin\BookStore.dll.config
+D:\Angular js\BookStore\BookStore\bin\BookStore.dll
+D:\Angular js\BookStore\BookStore\bin\BookStore.pdb
+D:\Angular js\BookStore\BookStore\bin\Antlr3.Runtime.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.Core.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.dll
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Angular js\BookStore\BookStore\bin\EntityFramework.dll
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Data.Edm.dll
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Data.OData.dll
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Angular js\BookStore\BookStore\bin\Newtonsoft.Json.dll
+D:\Angular js\BookStore\BookStore\bin\System.Net.Http.Formatting.dll
+D:\Angular js\BookStore\BookStore\bin\System.Spatial.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Helpers.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.OData.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.WebHost.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Mvc.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Optimization.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.Razor.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.dll
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+D:\Angular js\BookStore\BookStore\bin\WebGrease.dll
+D:\Angular js\BookStore\BookStore\bin\WebMatrix.Data.dll
+D:\Angular js\BookStore\BookStore\bin\WebMatrix.WebData.dll
+D:\Angular js\BookStore\BookStore\bin\EntityFramework.xml
+D:\Angular js\BookStore\BookStore\bin\Newtonsoft.Json.xml
+D:\Angular js\BookStore\BookStore\bin\System.Net.Http.Formatting.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Helpers.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.WebHost.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Mvc.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Razor.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+D:\Angular js\BookStore\BookStore\bin\WebMatrix.Data.xml
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Angular js\BookStore\BookStore\bin\WebMatrix.WebData.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.Core.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.xml
+D:\Angular js\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Angular js\BookStore\BookStore\bin\System.Web.Http.OData.xml
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Data.Edm.xml
+D:\Angular js\BookStore\BookStore\bin\Microsoft.Data.OData.xml
+D:\Angular js\BookStore\BookStore\bin\System.Spatial.xml
+D:\Angular js\BookStore\BookStore\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Angular js\BookStore\BookStore\bin\de\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\es\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\it\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Angular js\BookStore\BookStore\bin\de\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\es\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\fr\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\it\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ja\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ko\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\ru\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hans\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\bin\zh-Hant\System.Spatial.resources.dll
+D:\Angular js\BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+D:\Angular js\BookStore\BookStore\obj\Debug\BookStore.dll
+D:\Angular js\BookStore\BookStore\obj\Debug\BookStore.pdb
+D:\Angular js\BookStore\BookStore\bin\BookStoreLibrary.dll
+D:\Angular js\BookStore\BookStore\bin\BookStoreLibrary.pdb
+E:\APAC.NET\BookStore\BookStore\bin\BookStore.dll.config
+E:\APAC.NET\BookStore\BookStore\bin\BookStore.dll
+E:\APAC.NET\BookStore\BookStore\bin\BookStore.pdb
+E:\APAC.NET\BookStore\BookStore\bin\Antlr3.Runtime.dll
+E:\APAC.NET\BookStore\BookStore\bin\BookStoreLibrary.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.Core.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.dll
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\APAC.NET\BookStore\BookStore\bin\EntityFramework.dll
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Data.Edm.dll
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Data.OData.dll
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Web.Infrastructure.dll
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\APAC.NET\BookStore\BookStore\bin\Newtonsoft.Json.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Net.Http.Formatting.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Spatial.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Helpers.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.OData.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.WebHost.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Mvc.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Optimization.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Razor.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.Deployment.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.dll
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.Razor.dll
+E:\APAC.NET\BookStore\BookStore\bin\WebGrease.dll
+E:\APAC.NET\BookStore\BookStore\bin\WebMatrix.Data.dll
+E:\APAC.NET\BookStore\BookStore\bin\WebMatrix.WebData.dll
+E:\APAC.NET\BookStore\BookStore\bin\BookStoreLibrary.pdb
+E:\APAC.NET\BookStore\BookStore\bin\EntityFramework.xml
+E:\APAC.NET\BookStore\BookStore\bin\Newtonsoft.Json.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Net.Http.Formatting.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Helpers.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.WebHost.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Mvc.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Razor.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.Deployment.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.WebPages.Razor.xml
+E:\APAC.NET\BookStore\BookStore\bin\WebMatrix.Data.xml
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\APAC.NET\BookStore\BookStore\bin\WebMatrix.WebData.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.AspNet.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.Core.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OAuth.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.xml
+E:\APAC.NET\BookStore\BookStore\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Web.Http.OData.xml
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Data.Edm.xml
+E:\APAC.NET\BookStore\BookStore\bin\Microsoft.Data.OData.xml
+E:\APAC.NET\BookStore\BookStore\bin\System.Spatial.xml
+E:\APAC.NET\BookStore\BookStore\bin\de\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\es\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\it\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\de\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\es\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\fr\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\it\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ja\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ko\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ru\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\de\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\es\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\fr\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\it\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ja\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ko\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\ru\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hans\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\bin\zh-Hant\System.Spatial.resources.dll
+E:\APAC.NET\BookStore\BookStore\obj\Debug\BookStore.csprojResolveAssemblyReference.cache
+E:\APAC.NET\BookStore\BookStore\obj\Debug\BookStore.dll
+E:\APAC.NET\BookStore\BookStore\obj\Debug\BookStore.pdb

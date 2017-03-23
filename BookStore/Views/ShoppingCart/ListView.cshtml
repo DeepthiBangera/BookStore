@@ -1,0 +1,44 @@
+﻿@model IEnumerable<BookStoreLibrary.Books.Books>
+@{
+    ViewBag.Title = "BookView";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>List of Books</h2>
+
+<table>
+    @*<thead>
+        <tr>
+            @*<th>BookID</th>*@
+    @*<th>Title</th>
+        <th>Author</th>
+        <th>Price</th>*@
+    @*<th>CategoryID</th>
+        <th>NoOfBooks</th>*@
+    @*</tr>
+        </thead>*@
+    @foreach (BookStoreLibrary.Books.Books l in Model)
+    {
+
+        <td>
+            @*<a href="@Html.ActionLink("ImageClick", "ImageClick", new { id = l.BookID })" title="Edit">*@
+            <img src="@l.image" />
+
+            @*<li>@l.BookID</li>*@
+
+            <li>Title:@l.Title</li>
+            <li>Author:@l.Author</li>
+            <li>Price:@l.Price</li>
+            @*<li>@l.CategoryID</li>
+                <li>@l.NoOfBooks</li>*@
+            <input type="button" value="Add to Cart" onclick="location.href='@Url.Action("AddCart", "User", new { id = l.BookID })'" />
+        </td>
+
+        @*<td>@Html.ActionLink("Edit", "Update", new { id = l.BookID })</td>
+            <td>@Html.ActionLink("Delete", "Delete", new { id = l.BookID })</td>*@
+        @*<td>@Html.ActionLink("GetBookByName", "GetBookByName", new { id = l.Title })</td>*@
+
+    }
+    @Html.ActionLink("Back to List", "Index")
+</table>
+

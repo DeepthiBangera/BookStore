@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>@ViewBag.Title - Online Book Store</title>
+
+    <meta name="viewport" content="width=device-width" />
+
+    @Styles.Render("~/Content/css")
+
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+
+<body>
+
+    <img src="~/Content/Image1/logo.png" />
+
+    @*<input id="box" type="text" placeholder="Get A Book Get The Life">
+
+    <input type="button" value="Search" onclick="@("window.location.href='" + @Url.Action("Index", "Book") + "'");" />*@
+   
+
+    <header>
+
+        <div class="content-wrapper">
+
+            <div align="center">
+
+                @*<h1 style="font-family:'Yu Mincho';font-size:50px;color:#150303">The Book Shop</h1>*@
+                @*<p class="site-title">@Html.ActionLink("BookStore","Index","Home")</p>*@
+
+            </div>
+
+            <div Style="background-color:black" >
+
+                <section id="login">
+
+                    @Html.Partial("_LoginPartial")
+
+                </section>
+
+                <nav>
+
+                    <ul id="menu">
+
+                        <li style="color:black">@Html.ActionLink("Home", "Index", "User")</li>
+
+                        <li style="color:black">@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                        @*<li style="color:black">@Html.ActionLink("Cart", "Index", "ShoppingCart")</li>*@
+
+                        <li style="color:black">@Html.ActionLink("Search", "Index", "Book")</li>
+
+                    </ul>
+
+                </nav>
+               
+            </div>
+            @*<img src="D:\Angular js\BookStore\BookStore\Content\Novel\JungleBook.jpg" />*@
+        </div>
+
+    </header>
+
+    <div>
+
+        @RenderSection("featured", required: false)
+
+        <section class="content-wrapper main-content clear-fix">
+
+            @RenderBody()
+            <br/><br /><br /><br /><br /><br />
+        </section>
+
+    
+            <center><b><p style="font-size:30px;color:red;">Popular Books</p></b></center>
+            <marquee behavior="alternate" direction="left" scrollamount="10">
+                <a href='@Url.Action("ImageClick/118", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Image1\Lolita.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/119", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Novel\JungleBook.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1101", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Comics\batman.jpg" height="120" width="150">
+                    </a>
+                <a href='@Url.Action("ImageClick/1102", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Comics\superman.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1103", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Comics\spiderman.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1104", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Cooking\Cook_Book.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1105", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Cooking\Mexican_cook_book.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1106", "User")'>
+                        <img src="D:\Angular js\BookStore\BookStore\Content\Cooking\Men_cook_too.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/1107", "User")'>
+                        <img src="D:\Angular js\BookStore\BookStore\Content\Novel\TouchTheStars.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/2101", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Novel\susanmulary.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/2102", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Novel\RedQueen.jpg" height="120" width="150">
+                </a>
+                <a href='@Url.Action("ImageClick/2103", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Comics\actioncomics.jpg" height="120" width="150">
+                </a>
+                 <a href='@Url.Action("ImageClick/2104", "User")'>
+                     <img src="D:\Angular js\BookStore\BookStore\Content\Comics\xmen.jpg" height="120" width="150">
+                 </a>
+                <a href='@Url.Action("ImageClick/2105", "User")'>
+                    <img src="D:\Angular js\BookStore\BookStore\Content\Comics\popeye.jpg" height="120" width="150">
+                </a>
+
+</marquee>
+        </div>
+    
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+
+    @RenderSection("scripts", required: false)
+
+    <div>
+        @*<footer>
+
+            <div class="content-wrapper">
+
+            <div class="float-left">
+
+            <p>&copy; @DateTime.Now.Year</p>
+
+            </div>
+
+            </div>
+
+            </footer>*@
+</body>
+
+</html>

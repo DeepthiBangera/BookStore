@@ -1,0 +1,31 @@
+﻿@model BookStoreLibrary.Books.Books
+
+@{
+    ViewBag.Title = "Add";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>Add</h2>
+
+@using (Html.BeginForm())
+{
+    @*<p>Id: @Html.EditorFor(model => model.BookID)@Html.ValidationMessageFor(model => model.BookID)</p>
+    <p>Name:@Html.EditorFor(model => model.Title)@Html.ValidationMessageFor(model => model.Title)</p>
+    <p>Author:@Html.EditorFor(model => model.Author)@Html.ValidationMessageFor(model => model.Author)</p>
+    <p>Price:@Html.EditorFor(model => model.Price)@Html.ValidationMessageFor(model => model.Price)</p>
+    <p>CategoryID:@Html.EditorFor(model => model.CategoryID)@Html.ValidationMessageFor(model => model.CategoryID)</p>
+    <p>Books available:@Html.EditorFor(model => model.NoOfBooks)@Html.ValidationMessageFor(model => model.NoOfBooks)</p>*@
+    //<p>Id:@Html.TextBox("BookID")</p>
+    <p>Name:@Html.TextBox("Title")</p>
+    <p>Author:@Html.TextBox("Author")</p>
+    <p>Price:@Html.TextBox("Price")</p>
+    <p>CategoryID:@Html.TextBox("CategoryID")</p>
+    <p>NoOfBooks:@Html.TextBox("NoOfBooks")</p>
+    <input type="submit" value="Add Book" />
+}
+
+@*@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}*@
+
+

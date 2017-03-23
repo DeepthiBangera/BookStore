@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BookStoreLibrary.Books.Books>
+@{
+    ViewBag.Title = "ListView";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>ListView</h2>
+
+@*@using (Html.BeginForm())
+{
+    <p>Search:@Html.TextBox("Title")</p>
+    @Html.ActionLink("GetBookByName", "GetBookByName")
+    <input type="submit" value="Search" />
+}*@
+
+@*@using (Html.BeginForm("Index", "GetBookByName", FormMethod.Get))
+{
+    <p>
+        Publisher: @Html.DropDownList("Books", "All")
+        Book Name: @Html.TextBox("strSearch")
+        <input type="submit" value="Search" />
+    </p>
+}
+below the line @Html.ActionLink("Create New", "Add")*@
+
+@*@foreach (BookStoreLibrary.Books.Books l in Model)
+{
+<p>Author:@Html.TextBoxFor(m => m.Title, new { Title = l.Title })</p>
+    <input type="submit" value="Search" />
+}*@
+@Html.ActionLink("Search", "Index")
+<table>
+    <thead>
+        <tr>
+            <th>BookID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>CategoryID</th>
+            <th>NoOfBooks</th>
+            @*<th>Image</th>*@
+        </tr>
+    </thead>
+    @foreach (BookStoreLibrary.Books.Books l in Model)
+    {
+        <tr>
+            <td>@l.BookID</td>
+            <td>@l.Title</td>
+            <td>@l.Author</td>
+            <td>@l.Price</td>
+            <td>@l.CategoryID</td>
+            <td>@l.NoOfBooks</td>
+            @*<td>@l.image</td>*@
+            @*<img src=@l.image>*@
+            <td>@Html.ActionLink("Edit", "Update", new { id = l.BookID })</td>
+            <td>@Html.ActionLink("Delete", "Delete", new { id = l.BookID })</td>
+            @*<td>@Html.ActionLink("GetBookByName", "GetBookByName", new { id = l.Title })</td>*@
+        </tr>
+    }
+
+</table>
+

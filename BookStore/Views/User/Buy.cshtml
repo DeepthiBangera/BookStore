@@ -1,0 +1,20 @@
+﻿@model BookStoreLibrary.Customer.CustomerOrder
+@{
+    ViewBag.Title = "Buy";
+}
+
+<h2>User Details</h2>
+@using (Html.BeginForm())
+{
+    <p>Name:@Html.TextBoxFor(m => m.Name)@Html.ValidationMessageFor(model => model.Name)</p>
+    <p>Email:@Html.TextBoxFor(m => m.Email)@Html.ValidationMessageFor(model => model.Email)</p>
+    <p>Number:@Html.TextBoxFor(m => m.Number)@Html.ValidationMessageFor(model => model.Number)</p>
+    @*<p>@Html.DisplayNameFor(m => m.Password) : @Html.EditorFor(m => m.Password)@Html.ValidationMessageFor(model => model.Number)</p>*@
+
+    <input type="submit" value="Save and Continue" onclick="location.href='@Url.Action("Order", "User")'" />
+}
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

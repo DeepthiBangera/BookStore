@@ -1,0 +1,9 @@
+D:\Angular js\BookStore\Helpers\bin\Debug\Helpers.dll
+D:\Angular js\BookStore\Helpers\bin\Debug\Helpers.pdb
+D:\Angular js\BookStore\Helpers\obj\Debug\Helpers.dll
+D:\Angular js\BookStore\Helpers\obj\Debug\Helpers.pdb
+E:\APAC.NET\BookStore\Helpers\bin\Debug\Helpers.dll
+E:\APAC.NET\BookStore\Helpers\bin\Debug\Helpers.pdb
+E:\APAC.NET\BookStore\Helpers\obj\Debug\Helpers.csprojResolveAssemblyReference.cache
+E:\APAC.NET\BookStore\Helpers\obj\Debug\Helpers.dll
+E:\APAC.NET\BookStore\Helpers\obj\Debug\Helpers.pdb

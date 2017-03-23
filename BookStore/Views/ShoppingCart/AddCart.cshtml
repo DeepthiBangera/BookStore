@@ -1,0 +1,25 @@
+﻿@model BookStoreLibrary.Books.Books
+@{
+    ViewBag.Title = "AddCart";
+}
+<table>
+@foreach (BookStoreLibrary.Books.Books l in Model)
+{
+    <tr>
+        <td>
+            <img src="@Model.image" />
+        </td>
+        <td>
+            <li>Title:@Model.Title</li>
+            <li>Author:@Model.Author</li>
+        </td>
+        <td>
+            <li>Price:@Model.Price</li>
+        </td>
+    </tr>
+    <input type="button" value="Order" onclick="location.href='@Url.Action("Buy", "Buy", new { id = Model.BookID })'" />
+    
+
+    @Html.ActionLink("Back to List", "Index")
+}
+</table>

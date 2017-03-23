@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Order";
+}
+
+<h2>Order</h2>
+@*<input type="button" value="Make Payment" onclick="callFunction();" />
+
+<script type="text/javascript">
+    function callFunction() {
+        Message.Show("Your order was successfull!!");
+    }
+</script>*@
+
+<script>
+    function Postsubmit() {
+        var result = alert("Your order was successful!!");
+        //if (result) {
+        //    return true;
+        //} else {
+        //    return false;
+        //}
+    }
+</script>
+@using (Html.BeginForm("Index", "Home"))
+{
+    <div style="color:Red">@ViewBag.Message</div>
+    <input type="submit" value="Make Payment" onclick="Postsubmit();" />
+}
+

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<BookStoreLibrary.Category.Category>
+
+@{
+    ViewBag.Title = "ListView";
+    Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>ListView of Category</h2>
+
+@Html.ActionLink("Add Category", "Add")
+@*@foreach (BookStoreLibrary.Books.Books l in Model)
+    {*@
+@*<p>Author:@Html.TextBoxFor(m => m.Title, new { Title = l.Title })</p>
+        <input type="submit" value="Search" />
+    }*@
+<table>
+    <thead>
+        <tr>
+            <th>CategoryID</th>
+            <th>CategoryName</th>
+        </tr>
+    </thead>
+    @foreach (BookStoreLibrary.Category.Category l in Model)
+    {
+        <tr>
+            <td>@l.CategoryID</td>
+            <td>@l.CategoryName</td>
+            <td>@Html.ActionLink("Edit", "Update", new { id = l.CategoryID })</td>
+            <td>@Html.ActionLink("Delete", "Delete", new { id = l.CategoryID })</td>
+        </tr>
+    }
+
+</table>
+
+

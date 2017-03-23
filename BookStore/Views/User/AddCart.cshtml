@@ -1,0 +1,67 @@
+﻿@*@model BookStoreLibrary.Books.Books
+    @{
+        ViewBag.Title = "AddCart";
+    }
+
+    <h2>AddCart</h2>
+
+
+
+    <table>
+        <td>
+            <img src="@Model.image" />
+            <li>Title:@Model.Title</li>
+            <li>Author:@Model.Author</li>
+            <li>Price:@Model.Price</li>
+            @*<li>@Model.BookID</li>
+                <li>@Model.CategoryID</li>
+                <li>@Model.NoOfBooks</li>*@
+@*</td>
+        <input type="button" value="Order" onclick="location.href='@Url.Action("Buy", "Buy", new { id = Model.BookID })'" />
+
+        @Html.ActionLink("Back to List", "Index")
+    </table>*@
+
+@model BookStoreLibrary.Books.Books
+@{
+    ViewBag.Title = "AddCart";
+}
+<table border="2" style="width:100%">
+    @*<thead>*@
+        <tr border="1" style="font-size:20px">
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+    @*</thead>*@
+    <tr style="font-size:20px">
+        <td>
+            <img src="@Model.image" />
+        </td>
+        <td>
+            Title:@Model.Title<br />
+            Author:@Model.Author
+        </td>
+        <td>
+            Price:@Model.Price
+        </td>
+        <td>
+            @using (Html.BeginForm("CategoryChosen", "User", FormMethod.Get))
+            {
+                <fieldset>
+                    Quantity
+                    @Html.DropDownList("MovieType")
+                </fieldset>
+            }
+        </td>
+        <td>
+            <input type="button" value="Remove from Cart" onclick="location.href='@Url.Action("Index", "User", new { id = Model.BookID })'" />
+        </td>
+    </tr>
+</table>
+<input type="button" value="Order" onclick="location.href='@Url.Action("Buy", "User")'" />
+@Html.ActionLink("Back to List", "Index")
+
+
+

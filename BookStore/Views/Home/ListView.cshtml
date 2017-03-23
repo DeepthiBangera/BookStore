@@ -1,0 +1,36 @@
+﻿@model IEnumerable<BookStoreLibrary.Books.Books>
+@{
+    ViewBag.Title = "ListView";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>ListView</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>BookID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>CategoryID</th>
+            <th>NoOfBooks</th>
+        </tr>
+    </thead>
+    @foreach (BookStoreLibrary.Books.Books l in Model)
+    {
+        <tr>
+            <td>@l.BookID</td>
+            <td>@l.Title</td>
+            <td>@l.Author</td>
+            <td>@l.Price</td>
+            <td>@l.CategoryID</td>
+            <td>@l.NoOfBooks</td>
+            @*<td>@Html.ActionLink("Edit", "Update", new { id = l.BookID })</td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = l.BookID })</td>*@
+            @*<td>@Html.ActionLink("GetBookByName", "GetBookByName", new { id = l.Title })</td>*@
+        </tr>
+    }
+
+</table>
+

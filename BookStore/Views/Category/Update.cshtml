@@ -1,0 +1,24 @@
+﻿@model BookStoreLibrary.Category.Category
+@{
+    ViewBag.Title = "Update";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>Update Category</h2>
+
+@using (Html.BeginForm())
+{
+    <p>CategoryID:@Html.EditorFor(model => model.CategoryID)@Html.ValidationMessageFor(model => model.CategoryID)</p>
+    <p>Category Name:@Html.EditorFor(model => model.CategoryName)@Html.ValidationMessageFor(model => model.CategoryName)</p>
+    @*<p>Id:@Html.TextBox("BookID")</p>
+        <p>Title:@Html.TextBox("Title")</p>
+        <p>Author:@Html.TextBox("Author")</p>
+        <p>Price:@Html.TextBox("Price")</p>
+        <p>CategoryID:@Html.TextBox("CategoryID")</p>
+        <p>NoOfBooks:@Html.TextBox("NoOfBooks")</p>*@
+    <input type="submit" value="Update Category" />
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,37 @@
+﻿@model BookStoreLibrary.Books.Books
+@{
+    ViewBag.Title = "GetBookByName";
+    //Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>GetBookByName</h2>
+
+@*@if (Model.Count() == 0) { <tr> <td colspan = "6"> Records not found </td></tr >}
+    else {
+    foreach(var item in Model) { 
+    < tr > 
+    <td> @Html.DisplayFor(BookID => item.BookID) </td>
+    <td>@Html.DisplayFor(modelItem => item.Title)</td>
+    <td> @Html.DisplayFor(modelItem => item.Author) </td>
+    <td> @Html.DisplayFor(modelItem => item.Price) </td>
+    <td> @Html.DisplayFor(modelItem => item.CategoryID) </td>
+    <td> @Html.DisplayFor(modelItem => item.NoOfBooks) </td>
+    </tr >
+    }
+    }*@
+
+
+@*<input type="submit" value="Search" />*@
+
+
+
+    @Html.ActionLink("Search", "Index")
+
+    @using (Html.BeginForm())
+    {
+    <p>
+        Title: @Html.TextBox("SearchString") <br />
+        <input type="submit" value="Filter" />
+    </p>
+    }
+ 

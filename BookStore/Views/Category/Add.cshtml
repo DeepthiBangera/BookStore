@@ -1,0 +1,25 @@
+﻿@model BookStoreLibrary.Category.Category
+
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>Add Category</h2>
+
+@using (Html.BeginForm())
+{
+    @*<p>Id: @Html.EditorFor(model => model.BookID)@Html.ValidationMessageFor(model => model.BookID)</p>
+        <p>Name:@Html.EditorFor(model => model.Title)@Html.ValidationMessageFor(model => model.Title)</p>
+        <p>Author:@Html.EditorFor(model => model.Author)@Html.ValidationMessageFor(model => model.Author)</p>
+        <p>Price:@Html.EditorFor(model => model.Price)@Html.ValidationMessageFor(model => model.Price)</p>
+        <p>CategoryID:@Html.EditorFor(model => model.CategoryID)@Html.ValidationMessageFor(model => model.CategoryID)</p>
+        <p>Books available:@Html.EditorFor(model => model.NoOfBooks)@Html.ValidationMessageFor(model => model.NoOfBooks)</p>*@
+    //<p>Id:@Html.TextBox("BookID")</p>
+    <p>Name:@Html.TextBox("CategoryName")</p>
+    <input type="submit" value="Add Category" />
+}
+
+@*@section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }*@
